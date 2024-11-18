@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: IvanKuchkov
+  - include:
+      file: DDL/00000_create_schema.sql
+      relativeToChangelogFile: true

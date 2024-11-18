@@ -1,0 +1,12 @@
+spring:
+  liquibase:
+    enabled: true
+
+http-client:
+  request-timeout: 5s
+  idle-connection-wait-time: 30s
+
+
+fixer:
+  url: http://localhost:${wiremock.server.port}/api
+  api-key: 92410668d3e4ce8e6b61b0d3d8f5f2a5
